@@ -1,10 +1,8 @@
 package localizable
 
-const ENGLISH = "en"
+const SPANISH = "es"
 
-// one string per line, no multiline
-// semicolon is not compulsory
-const EN = `
+const ES = `
 "appName" = "godcr";
 "appTitle" = "godcr (%s)";
 "recentTransactions" = "Recent Transactions";
@@ -114,7 +112,7 @@ const EN = `
 "more" = "More";
 "english" = "English";
 "french" = "French";
-"spanish" = "Spanish";
+"spanish" = "Español";
 "usdBittrex" = "USD (Bittrex)";
 "none" = "None";
 `
