@@ -211,6 +211,7 @@ func (pg *TransactionDetailsPage) txnBalanceAndStatus(gtx layout.Context) layout
 									txt.Text = strings.Title("confirmed")
 									txt.Color = pg.Theme.Color.Success
 								} else {
+									txt.Text = strings.Title("pending")
 									txt.Color = pg.Theme.Color.Gray
 								}
 								return txt.Layout(gtx)
