@@ -39,6 +39,10 @@ func Clickable(gtx layout.Context, button *widget.Clickable, w layout.Widget) la
 	return material.Clickable(gtx, button, w)
 }
 
+func (b Button) Clicked() bool {
+	return b.Button.Clicked()
+}
+
 func (b Button) Layout(gtx layout.Context) layout.Dimensions {
 	return b.ButtonStyle.Layout(gtx)
 }
